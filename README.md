@@ -20,6 +20,7 @@ The California Housing dataset is obtained using `fetch_california_housing()` fr
 The model uses the following eight numerical features:
 
 | Feature | Description |
+|---|---|
 | `MedInc` | Median income |
 | `HouseAge` | Median house age |
 | `AveRooms` | Average number of rooms |
@@ -68,6 +69,7 @@ A bar chart compares the mean five-fold cross-validation R² scores of the four 
 The recorded experimental results are shown below.
 
 | Model | Alpha | Mean 5-Fold CV R² |
+|---|---:|---:|
 | Linear Regression | N/A | 0.6457 |
 | Ridge Regression | 0.1 | 0.6457 |
 | Ridge Regression | 10.0 | 0.6443 |
